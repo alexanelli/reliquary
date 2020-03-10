@@ -1,0 +1,5 @@
+# https://packaging.python.org/tutorials/packaging-projects/
+include reliquary/schema.sql
+graft reliquary/static
+graft reliquary/templates
+global-exclude *.pyc
