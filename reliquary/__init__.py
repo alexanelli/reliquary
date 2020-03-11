@@ -27,7 +27,7 @@ def create_app(test_config=None):
     # a simple page that says hello
     @app.route('/hello')
     def hello():
-        return 'henlo internet'
+        return 'henlo'
 
     from reliquary import db
     db.init_app(app)
